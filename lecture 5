@@ -1,0 +1,64 @@
+
+HTML FILE
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1>This is test headline</h1>
+    <p class="centre-paragraph">
+        This is Shantanu<br> Shantanu lives in <span style="color: red;">India</span>
+        <hr/>
+    </p>
+    </div>
+        <p>This is second paragraph</p>
+
+    <div>
+        <p>Para 1</p>
+        <p>Para 2</p>
+    </div>
+    <p>Para 3</p>
+    <p>Para 4</p>
+    <hr/>
+
+    <div>
+        <a href="https://cipherschools.com/">Go to cipherschools</a>
+        <a href="https://google.com/" target="_blank">Google</a>
+    </div>
+</body>
+</html>
+
+
+CSS  
+
+/* Type of Selectors 
+1. Simple Selector
+2. Combinator Selector
+3. Pseduo-class Selector
+4. Pesduo-element Selector
+5. Attribute Selector
+*/
+
+/*universal selector*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+div + p{
+    background-color: yellow;
+}
+
+ /* Pseduo selector  */
+div ~ p:hover{
+    background-color: yellow;
+}
+
+a[target]{
+    color: orange;
+}
